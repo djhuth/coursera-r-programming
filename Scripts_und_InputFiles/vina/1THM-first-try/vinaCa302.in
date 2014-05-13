@@ -1,0 +1,10 @@
+receptor = 1thm_Ca302.pdbqt
+ligand = Ca302.pdbqt
+center_x = 1.963
+center_y = 26.237
+center_z = 20.412
+size_x = 1
+size_y = 1
+size_z = 1
+out = all.pdb
+

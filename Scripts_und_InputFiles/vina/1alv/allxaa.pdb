@@ -1,0 +1,10 @@
+MODEL 1
+REMARK VINA RESULT:      -1.3      0.000      0.000
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CA_1
+ROOT
+HETATM    1 CA    CA A   1      -5.100 -39.179  28.847  1.00 28.04     2.000 Ca 
+ENDROOT
+TORSDOF 1
+ENDMDL

@@ -1,0 +1,31 @@
+#Compute AutoDock-vina energies of Ca2+ ions in various PDBs.
+#Daniel.Hoffmann@uni-due.de, 2009-12-10.
+
+#Read list of PDB codes.
+#For each PDB:
+# - fetch it from PDB
+# - remove water
+# - generate PDB-file of remaining protein (without Ca)
+# - generate pdbqt-file of protein
+# - put all Ca-ions into single HETATM-PDB files
+# - count Ca-ions
+#   For each Ca-ion:
+#     - generate pdbqt-files for each of Ca-ion
+#     - compute AutoDock-vina energy
+#     - append to results-file with PDB-code, Ca-number, and energy
+
+base.dir <- "/home/hoffmann/projects/sonden/science/CaBinding/vina/"
+setwd(base.dir)
+pdbs <- read.table("pdb.lst")
+n.pdbs <- length(pdbs$V1)
+for (i in 1:n.pdbs) {
+#  system(paste("wget http://www.rcsb.org/pdb/files/",pdbs$V1[i],".pdb",sep=""))
+#  system(paste("mkdir",pdbs$V1[i]))
+#  system(paste("mv ",pdbs$V1[i],".pdb ",pdbs$V1[i],"/protein.pdb",sep=""))
+  setwd(paste(base.dir,pdbs$V1[i],sep=""))
+  system(paste("python /usr/share/pyshared/AutoDockTools/Utilities24/prepare_receptor4.py -r protein.pdb -U nphs_lps_waters_nonstdres -e -A hydrogens"))
+  
+#  system("grep \"^ATOM \" protein.pdb > proteinAtom.pdb")
+  
+}
+

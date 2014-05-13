@@ -1,0 +1,7 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CA_1
+ROOT
+HETATM    1 CA    CA A 401      91.006  66.372  78.020  1.00 11.34     2.000 Ca 
+ENDROOT
+TORSDOF 1

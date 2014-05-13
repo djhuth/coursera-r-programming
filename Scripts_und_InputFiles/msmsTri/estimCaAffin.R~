@@ -1,0 +1,50 @@
+#!/usr/bin/r --vanilla
+#Compute SAS and SES of Ca2+ ions in various PDBs.
+#Daniel.Hoffmann@uni-due.de, 2009-12-10.
+
+#Read list of PDB codes.
+#For each PDB:
+# - fetch it from PDB --> see downloadPDBs.R
+# - remove water
+# - generate PDB-file of remaining protein (without Ca)
+# - generate pdbqt-file of protein
+# - put all Ca-ions into separate single HETATM-PDB files
+# - count Ca-ions
+#   For each Ca-ion:
+#     - generate pdbqt-files for each of Ca-ion
+#     - compute AutoDock-vina energy
+#     - append to results-file with PDB-code, Ca-number, and energy
+
+base.dir <- getwd()
+pdbs <- read.table("pdb.lst")
+n.pdbs <- length(pdbs$V1)
+for (i in 1:n.pdbs) {
+  setwd(paste(base.dir,"/",pdbs$V1[i],sep=""))
+
+  #Remove water molecules and alternate positions.
+  system("python /usr/share/pyshared/AutoDockTools/Utilities24/prepare_receptor4.py -r protein.pdb -o step1.pdbqt -A None -U waters_deleteAltB")
+
+  system("babel -ipqr step1.pdbqt -opdb | grep -v \"CONECT\" > step2.pdb")
+
+  system("ln -s /home/hoffmann/projects/sonden/science/CaBinding/msmsTri/atmtypenumbers .")
+  
+  system("pdb_to_xyzrn step2.pdb > step3.xyzrn")
+
+  system("msms -if step3.xyzrn -surface ases -af protein -probe_radius 0.5")
+
+  system("grep \"CA_CA_\" protein.area | split -l 1")
+
+  system("ls x?? > ligand.lst")
+  
+  ligands <- read.table("ligand.lst")
+  n.ligs <- length(ligands$V1)
+  for (j in 1:n.ligs) {
+    ligLine <- readLines(as.character(ligands$V1[j]), n=1)
+    splitted <- strsplit(ligLine,split=" +")
+    ses <- splitted[[1]][3]
+    sas <- splitted[[1]][4]
+
+    cat(as.character(pdbs$V1[i]),j,ses,sas,"\n",file="../affinities.lst",append=T)
+  }
+}
+

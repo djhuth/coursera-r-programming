@@ -1,0 +1,9 @@
+receptor = protein.pdbqt
+ligand = xad.pdbqt
+center_x =    3.619
+center_y =  -47.338
+center_z =   50.194
+size_x = 1
+size_y = 1
+size_z = 1
+out = allxad.pdb

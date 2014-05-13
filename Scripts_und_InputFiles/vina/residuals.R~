@@ -1,0 +1,13 @@
+m <- lm(DGexp[-22]~SAS[-22])
+DGfxPm22 <- DGfxP[-22]
+DGfxPm22[!is.na(DGexp[-22])]
+cor.test(as.numeric(m$residuals),DGfxPm22[!is.na(DGexp[-22])])
+cor.test(as.numeric(m$residuals),DGvina[-22][!is.na(DGexp[-22])])
+
+m.vina.sas <- lm(DGvina[-22]~SAS[-22])
+m.fxp.sas <- lm(DGfxP[-22]~SAS[-22])
+cor.test(DGvina[-22],SAS[-22])
+cor.test(DGfxP[-22],SAS[-22])
+cor.test(as.numeric(m.vina.sas$residuals),DGexp[-22])
+res <- as.numeric(m.fxp.sas$residuals)
+cor.test(res,DGexp[-22][!is.na(DGfxP[-22])])
