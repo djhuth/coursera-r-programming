@@ -311,7 +311,6 @@
  [<span class="number">1</span>] <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -351,7 +350,6 @@
 [<span class="number">1</span>] <span class="string">&quot;0&quot;</span> <span class="string">&quot;1&quot;</span> <span class="string">&quot;2&quot;</span> <span class="string">&quot;3&quot;</span> <span class="string">&quot;4&quot;</span> <span class="string">&quot;5&quot;</span> <span class="string">&quot;6&quot;</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -374,7 +372,6 @@ NAs introduced by coercion
 [<span class="number">1</span>] <span class="number">0</span>+<span class="number">0i</span> <span class="number">1</span>+<span class="number">0i</span> <span class="number">2</span>+<span class="number">0i</span> <span class="number">3</span>+<span class="number">0i</span> <span class="number">4</span>+<span class="number">0i</span> <span class="number">5</span>+<span class="number">0i</span> <span class="number">6</span>+<span class="number">0i</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -395,7 +392,6 @@ NAs introduced by coercion
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="empty matrix" ID="ID_248701588" CREATED="1399925415530" MODIFIED="1399925817016"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -419,7 +415,6 @@ $dim
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="construed columnwise:" ID="ID_798141546" CREATED="1399925446310" MODIFIED="1399925783540"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -436,7 +431,6 @@ $dim
 [2,]    2    4    6</code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="construed from vectors by adding dimension attribute:" ID="ID_1163552085" CREATED="1399925497478" MODIFIED="1399925855021"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -459,7 +453,6 @@ $dim
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="column-binding/row-binding" ID="ID_680719746" CREATED="1399925551201" MODIFIED="1399925885433"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -485,7 +478,6 @@ y   10   11   12</code></pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -501,7 +493,6 @@ y   10   11   12</code></pre>
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="list() function" ID="ID_1228691629" CREATED="1399925936718" MODIFIED="1399925962734"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -525,7 +516,6 @@ y   10   11   12</code></pre>
 [<span class="number">1</span>] <span class="number">1</span>+<span class="number">4i</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -554,7 +544,6 @@ y   10   11   12</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="factor() function" ID="ID_1551283158" CREATED="1399926020682" MODIFIED="1399926129688"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -577,7 +566,6 @@ attr(,<span class="string">&quot;levels&quot;</span>)
 [<span class="number">1</span>] <span class="string">&quot;no&quot;</span>  <span class="string">&quot;yes&quot;</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="order of levels: default = alphabetically, can be changed" ID="ID_1825341985" CREATED="1399926140757" MODIFIED="1399926190079"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -593,7 +581,6 @@ attr(,<span class="string">&quot;levels&quot;</span>)
 Levels: yes no</code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -633,7 +620,6 @@ Levels: yes no</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="example:" ID="ID_590036328" CREATED="1399926275004" MODIFIED="1399926299967"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -654,7 +640,6 @@ Levels: yes no</code></pre>
 [<span class="number">1</span>] <span class="literal">FALSE</span> <span class="literal">FALSE</span>  <span class="literal">TRUE</span> <span class="literal">FALSE</span> <span class="literal">FALSE</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -703,7 +688,6 @@ Levels: yes no</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="example" ID="ID_248400886" CREATED="1399926345995" MODIFIED="1399926376534"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -725,7 +709,6 @@ Levels: yes no</code></pre>
 [<span class="number">1</span>] <span class="number">2</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -748,7 +731,6 @@ foo bar norf
 [<span class="number">1</span>] <span class="string">&quot;foo&quot;</span>  <span class="string">&quot;bar&quot;</span>  <span class="string">&quot;norf&quot;</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lists" ID="ID_697569096" CREATED="1399926544307" MODIFIED="1399926588802"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -770,7 +752,6 @@ $c
 [<span class="number">1</span>] <span class="number">3</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="matrices" ID="ID_673044982" CREATED="1399926558335" MODIFIED="1399926619380"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -788,7 +769,6 @@ a <span class="number">1</span> <span class="number">3</span>
 b <span class="number">2</span> <span class="number">4</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -837,7 +817,6 @@ b <span class="number">2</span> <span class="number">4</span></code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -871,7 +850,6 @@ b <span class="number">2</span> <span class="number">4</span></code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="vector:" ID="ID_1900342161" CREATED="1399926874632" MODIFIED="1399926888006"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -1065,7 +1043,6 @@ $baz
 [<span class="number">1</span>] <span class="number">3.14</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1085,7 +1062,6 @@ $baz
 [<span class="number">1</span>] <span class="number">1</span> <span class="number">2</span> <span class="number">3</span> <span class="number">4</span> <span class="number">5</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="removing NA values" ID="ID_233685368" CREATED="1399927553270" MODIFIED="1399927723080"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -1101,7 +1077,6 @@ $baz
 [<span class="number">1</span>] <span class="number">1</span> <span class="number">2</span> <span class="number">4</span> <span class="number">5</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="subset with no missing values" ID="ID_1020989962" CREATED="1399927641495" MODIFIED="1399927661622"><richcontent TYPE="DETAILS">
 
@@ -1121,7 +1096,6 @@ $baz
 [<span class="number">1</span>] <span class="string">&quot;a&quot;</span> <span class="string">&quot;b&quot;</span> <span class="string">&quot;d&quot;</span> <span class="string">&quot;f&quot;</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="example (airquality):" ID="ID_1006614250" CREATED="1399927696294" MODIFIED="1399927717724"><richcontent TYPE="DETAILS">
@@ -1149,7 +1123,6 @@ $baz
 <span class="number">7</span>    <span class="number">23</span>     <span class="number">299</span>  <span class="number">8.6</span>   <span class="number">65</span>     <span class="number">5</span>   <span class="number">7</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1188,7 +1161,6 @@ $baz
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="functions for writing:" ID="ID_491563223" CREATED="1399928098523" MODIFIED="1399928152366"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -1223,7 +1195,6 @@ $baz
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1266,7 +1237,6 @@ $baz
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="default:" ID="ID_849327657" CREATED="1399928218050" MODIFIED="1399928239101"><richcontent TYPE="DETAILS">
 
@@ -1299,7 +1269,6 @@ $baz
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="reading in large datasets:" ID="ID_1166502323" CREATED="1399928257718" MODIFIED="1399928356444"><richcontent TYPE="DETAILS">
@@ -1342,7 +1311,6 @@ tabAll &lt;- read.table(<span class="string">&quot;datatable.txt&quot;</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="calculating memory requirements" ID="ID_1062019946" CREATED="1399928366825" MODIFIED="1399928392519"><richcontent TYPE="DETAILS">
 
@@ -1372,7 +1340,6 @@ tabAll &lt;- read.table(<span class="string">&quot;datatable.txt&quot;</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1409,7 +1376,6 @@ tabAll &lt;- read.table(<span class="string">&quot;datatable.txt&quot;</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="dput - dget" ID="ID_601993659" CREATED="1399928466197" MODIFIED="1399928564866"><richcontent TYPE="DETAILS">
 
@@ -1436,7 +1402,6 @@ structure(list(a = <span class="number">1</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="dump  - source" ID="ID_1552367559" CREATED="1399928496808" MODIFIED="1399928578118"><richcontent TYPE="DETAILS">
@@ -1463,7 +1428,6 @@ structure(list(a = <span class="number">1</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1494,7 +1458,6 @@ structure(list(a = <span class="number">1</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="file connections" ID="ID_1996833724" CREATED="1399928647011" MODIFIED="1399928657384"><richcontent TYPE="DETAILS">
 
@@ -1532,7 +1495,6 @@ structure(list(a = <span class="number">1</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="connections" ID="ID_404320461" CREATED="1399928672558" MODIFIED="1399928682499"><richcontent TYPE="DETAILS">
@@ -1555,7 +1517,6 @@ close(con)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1579,7 +1540,6 @@ close(con)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="reading webpages" ID="ID_694322739" CREATED="1399928738694" MODIFIED="1399928753014"><richcontent TYPE="DETAILS">
 
@@ -1602,19 +1562,625 @@ x &lt;- readLines(con)
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
 <node TEXT="Week 2" ID="ID_34104404" CREATED="1399310377399" MODIFIED="1399310380373">
-<node TEXT="Control Structures (part 1-2) [7:10]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1499456140" CREATED="1399310933427" MODIFIED="1399928815644"/>
-<node TEXT="Functions (part 1) [9:17]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_627025677" CREATED="1399311197937" MODIFIED="1399565692730"/>
-<node TEXT="Functions (part 2) [7:13]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_815633046" CREATED="1399311218373" MODIFIED="1399565692735"/>
+<node TEXT="Control Structures (part 1-2) [7:10]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1499456140" CREATED="1399310933427" MODIFIED="1399928815644">
+<node TEXT="if - [ else if ] - else" ID="ID_965316108" CREATED="1400053974224" MODIFIED="1400055892213">
+<node TEXT="normale Variante" ID="ID_973409863" CREATED="1400055908126" MODIFIED="1400055973677"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="keyword"><code class="r">if</code></span><code class="r">(&lt;condition&gt;) {
+        <span class="comment">## do something</span>
+} <span class="keyword">else</span> {
+        <span class="comment">## do something else</span>
+}
+<span class="keyword">if</span>(&lt;condition1&gt;) {
+        <span class="comment">## do something</span>
+} <span class="keyword">else</span> <span class="keyword">if</span>(&lt;condition2&gt;)  {
+        <span class="comment">## do something different</span>
+} <span class="keyword">else</span> {
+        <span class="comment">## do something different</span>
+}</code></pre>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="kompakte Variante" ID="ID_1977037172" CREATED="1400055896942" MODIFIED="1400055972277"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">y &lt;- <span class="keyword">if</span>(x &gt; <span class="number">3</span>) {
+        <span class="number">10</span>
+} <span class="keyword">else</span> { 
+        <span class="number">0</span>
+}</code></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="for - loops" ID="ID_1624308342" CREATED="1400053981311" MODIFIED="1400053986477">
+<node TEXT="3 verschiedene Arten" ID="ID_797488633" CREATED="1400056002531" MODIFIED="1400056039375"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">x &lt;- c(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>, <span class="string">&quot;d&quot;</span>)
+
+<span class="keyword">for</span>(i <span class="keyword">in</span> <span class="number">1</span>:<span class="number">4</span>) {
+        print(x[i])
+}
+
+<span class="keyword">for</span>(i <span class="keyword">in</span> seq_along(x)) {
+        print(x[i])
+}
+
+<span class="keyword">for</span>(letter <span class="keyword">in</span> x) {
+        print(letter)
+}
+
+<span class="keyword">for</span>(i <span class="keyword">in</span> <span class="number">1</span>:<span class="number">4</span>) print(x[i]</code></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="nested" ID="ID_1404134884" CREATED="1400056048036" MODIFIED="1400056060280"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">x &lt;- matrix(<span class="number">1</span>:<span class="number">6</span>, <span class="number">2</span>, <span class="number">3</span>)
+
+<span class="keyword">for</span>(i <span class="keyword">in</span> seq_len(nrow(x))) {
+        <span class="keyword">for</span>(j <span class="keyword">in</span> seq_len(ncol(x))) {
+                print(x[i, j])
+        }   
+}</code></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="while - loops" ID="ID_129444973" CREATED="1400053987135" MODIFIED="1400056095338"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">count &lt;- <span class="number">0</span>
+<span class="keyword">while</span>(count &lt; <span class="number">10</span>) {
+        print(count)
+        count &lt;- count + <span class="number">1</span>
+}</code></pre>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="mehrere Bedingungen:" ID="ID_1327332672" CREATED="1400056114599" MODIFIED="1400056132844"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">z &lt;- <span class="number">5</span>
+
+<span class="keyword">while</span>(z &gt;= <span class="number">3</span> &amp;&amp; z &lt;= <span class="number">10</span>) {
+        print(z)
+        coin &lt;- rbinom(<span class="number">1</span>, <span class="number">1</span>, <span class="number">0.5</span>)
+
+        <span class="keyword">if</span>(coin == <span class="number">1</span>) {  <span class="comment">## random walk</span>
+                z &lt;- z + <span class="number">1</span>
+        } <span class="keyword">else</span> {
+                z &lt;- z - <span class="number">1</span>
+        } 
+}</code></pre>
+    <p>
+      Conditions are always evaluated from left to right.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="repeat" ID="ID_1736512483" CREATED="1400053992544" MODIFIED="1400053995806">
+<node TEXT="Endlosschleife:" ID="ID_1463218031" CREATED="1400056175594" MODIFIED="1400056194787"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Repeat initiates an infinite loop; these are not commonly used in statistical applications but they do have their uses. The only way to exit a <code>repeat</code>&#160;loop is to call <code>break</code>.
+    </p>
+    <pre><code class="r">x0 &lt;- <span class="number">1</span>
+tol &lt;- <span class="number">1e-8</span>
+
+<span class="keyword">repeat</span> {
+        x1 &lt;- computeEstimate()
+
+        <span class="keyword">if</span>(abs(x1 - x0) &lt; tol) {
+                <span class="keyword">break</span>
+        } <span class="keyword">else</span> {
+                x0 &lt;- x1
+        } 
+}</code></pre>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Anmerkung:" ID="ID_1313308537" CREATED="1400056236086" MODIFIED="1400056248713"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The loop in the previous slide is a bit dangerous because there&#8217;s no guarantee it will stop. Better to set a hard limit on the number of iterations (e.g. using a for loop) and then report whether convergence was achieved or not.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="break" ID="ID_1997958365" CREATED="1400053996816" MODIFIED="1400056372130"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The only way to exit a <code>repeat</code>&#160;loop is to call <code>break</code>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="next" ID="ID_488977441" CREATED="1400054001520" MODIFIED="1400056314147"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>next</code>&#160;is used to skip an iteration of a loop
+    </p>
+    <pre><span class="keyword"><code class="r">for</code></span><code class="r">(i <span class="keyword">in</span> <span class="number">1</span>:<span class="number">100</span>) {
+        <span class="keyword">if</span>(i &lt;= <span class="number">20</span>) {
+                <span class="comment">## Skip the first 20 iterations</span>
+                <span class="keyword">next</span> 
+        }
+        <span class="comment">## Do something here</span>
+}</code></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="return" ID="ID_677459597" CREATED="1400054005392" MODIFIED="1400056336725"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>return</code>&#160;signals that a function should exit and return a given value
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Functions (part 1-2)" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_627025677" CREATED="1399311197937" MODIFIED="1400056473767">
+<node TEXT="functions" ID="ID_568271793" CREATED="1400056484216" MODIFIED="1400056552168"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Functions are created using the <code>function()</code>&#160;directive and are stored as R objects just like anything else. In particular, they are R objects of class &#8220;function&#8221;.
+    </p>
+    <pre><code class="r">f &lt;- <span class="keyword">function</span>(&lt;arguments&gt;) {
+        <span class="comment">## Do something interesting</span>
+}</code></pre>
+    <p>
+      Functions in R are &#8220;first class objects&#8221;, which means that they can be treated much like any other R object. Importantly,
+    </p>
+    <ul>
+      <li>
+        Functions can be passed as arguments to other functions
+      </li>
+      <li>
+        Functions can be nested, so that you can define a function inside of another function
+      </li>
+      <li>
+        The return value of a function is the last expression in the function body to be evaluated.
+      </li>
+    </ul>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="function arguments" ID="ID_1916934279" CREATED="1400056589186" MODIFIED="1400056619625"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Functions have <em>named arguments</em>&#160;which potentially have <em>default values</em>.
+    </p>
+    <ul>
+      <li>
+        The <em>formal arguments</em>&#160;are the arguments included in the function definition
+      </li>
+      <li>
+        The <code>formals</code>&#160;function returns a list of all the formal arguments of a function
+      </li>
+      <li>
+        Not every function call in R makes use of all the formal arguments
+      </li>
+      <li>
+        Function arguments can be <em>missing</em>&#160;or might have default values
+      </li>
+    </ul>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="argument matching: positionally or by name" ID="ID_1647361180" CREATED="1400056594178" MODIFIED="1400057196296"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      R functions arguments can be matched positionally or by name. So the following calls to <code>sd</code>&#160;are all equivalent
+    </p>
+    <pre><code class="r">&gt; mydata &lt;- rnorm(<span class="number">100</span>)
+&gt; sd(mydata)
+&gt; sd(x = mydata)
+&gt; sd(x = mydata, na.rm = <span class="literal">FALSE</span>)
+&gt; sd(na.rm = <span class="literal">FALSE</span>, x = mydata)
+&gt; sd(na.rm = <span class="literal">FALSE</span>, mydata)</code></pre>
+    <p>
+      Even though it&#8217;s legal, I don&#8217;t recommend messing around with the order of the arguments too much, since it can lead to some confusion.
+    </p>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="argument matching 2" ID="ID_96164306" CREATED="1400057202586" MODIFIED="1400057258198"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You can mix positional matching with matching by name. When an argument is matched by name, it is &#8220;taken out&#8221; of the argument list and the remaining unnamed arguments are matched in the order that they are listed in the function definition.
+    </p>
+    <pre><code class="r">&gt; args(lm)
+<span class="keyword">function</span> (formula, data, subset, weights, na.action,
+          method = <span class="string">&quot;qr&quot;</span>, model = <span class="literal">TRUE</span>, x = <span class="literal">FALSE</span>,
+          y = <span class="literal">FALSE</span>, qr = <span class="literal">TRUE</span>, singular.ok = <span class="literal">TRUE</span>,
+          contrasts = <span class="literal">NULL</span>, offset, <span class="keyword">...</span>)</code></pre>
+    <p>
+      The following two calls are equivalent.
+    </p>
+    <pre><code class="r">lm(data = mydata, y ~ x, model = <span class="literal">FALSE</span>, <span class="number">1</span>:<span class="number">100</span>)
+lm(y ~ x, mydata, <span class="number">1</span>:<span class="number">100</span>, model = <span class="literal">FALSE</span>)</code></pre>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="argument matching 3" ID="ID_1828697703" CREATED="1400057299823" MODIFIED="1400057340360"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Most of the time, named arguments are useful on the command line when you have a long argument list and you want to use the defaults for everything except for an argument near the end of the list
+      </li>
+      <li>
+        Named arguments also help if you can remember the name of the argument and not its position on the argument list (plotting is a good example).
+      </li>
+    </ul>
+<article/>    
+
+    <p>
+      
+    </p>
+    <p>
+      Function arguments can also be <em>partially</em>&#160;matched, which is useful for interactive work. The order of operations when given an argument is
+    </p>
+    <ol>
+      <li>
+        Check for exact match for a named argument
+      </li>
+      <li>
+        Check for a partial match
+      </li>
+      <li>
+        Check for a positional match
+      </li>
+    </ol>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="defining a function" ID="ID_1919335210" CREATED="1400057349953" MODIFIED="1400057394680"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">f &lt;- <span class="keyword">function</span>(a, b = <span class="number">1</span>, c = <span class="number">2</span>, d = <span class="literal">NULL</span>) {
+
+}</code></pre>
+    <p>
+      In addition to not specifying a default value, you can also set an argument value to <code>NULL</code>.
+    </p>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lazy evaluation" ID="ID_1596865767" CREATED="1400057404451" MODIFIED="1400058861884"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arguments to functions are evaluated <em>lazily</em>, so they are evaluated only as needed.
+    </p>
+    <pre><code class="r">f &lt;- <span class="keyword">function</span>(a, b) {
+    a^<span class="number">2</span>
+}
+f(<span class="number">2</span>)</code></pre>
+    <pre><span class="preprocessor"><code class="vala">## [1] 4</code></span></pre>
+    <p>
+      This function never actually uses the argument <code>b</code>, so calling <code>f(2)</code>&#160; will not produce an error because the 2 gets positionally matched to <code>a</code>.
+    </p>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="lazy evaluation 2" ID="ID_416808463" CREATED="1400058925906" MODIFIED="1400058949689"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">f &lt;- <span class="keyword">function</span>(a, b) {
+    print(a)
+    print(b)
+}
+f(<span class="number">45</span>)</code></pre>
+    <pre><span class="preprocessor"><code class="vala">## [1] 45</code></span></pre>
+    <pre><code class="vbscript">## <span class="keyword">Error</span>: argument <span class="string">&quot;b&quot;</span> <span class="keyword">is</span> missing, <span class="keyword">with</span> no <span class="keyword">default</span>
+</code></pre>
+    <p>
+      Notice that &#8220;45&#8221; got printed first before the error was triggered. This is because <code>b</code>&#160;did not have to be evaluated until after <code>print(a)</code>. Once the function tried to evaluate <code>print(b)</code>&#160;it had to throw an error.
+    </p>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="the &quot;...&quot; argument" ID="ID_758854175" CREATED="1400059094200" MODIFIED="1400059125096"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The ... argument indicate a variable number of arguments that are usually passed on to other functions.
+    </p>
+    <ul>
+      <li>
+        ... is often used when extending another function and you don&#8217;t want to copy the entire argument list of the original function
+      </li>
+    </ul>
+    <pre><code class="r">myplot &lt;- <span class="keyword">function</span>(x, y, type = <span class="string">&quot;l&quot;</span>, <span class="keyword">...</span>) {
+        plot(x, y, type = type, <span class="keyword">...</span>)
+}</code></pre>
+    <ul>
+      <li>
+        Generic functions use ... so that extra arguments can be passed to methods (more on this later).
+      </li>
+    </ul>
+    <pre><code class="r">&gt; mean
+<span class="keyword">function</span> (x, <span class="keyword">...</span>)
+UseMethod(<span class="string">&quot;mean&quot;</span>)</code></pre>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="number of arguments not known in advance" ID="ID_1631959405" CREATED="1400059129382" MODIFIED="1400059148868"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The ... argument is also necessary when the number of arguments passed to the function cannot be known in advance.
+    </p>
+    <pre><code class="r">&gt; args(paste)
+<span class="keyword">function</span> (<span class="keyword">...</span>, sep = <span class="string">&quot; &quot;</span>, collapse = <span class="literal">NULL</span>)
+
+&gt; args(cat)
+<span class="keyword">function</span> (<span class="keyword">...</span>, file = <span class="string">&quot;&quot;</span>, sep = <span class="string">&quot; &quot;</span>, fill = <span class="literal">FALSE</span>,
+    labels = <span class="literal">NULL</span>, append = <span class="literal">FALSE</span>)</code></pre>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="arguments after &quot;...&quot;" ID="ID_210524696" CREATED="1400059172788" MODIFIED="1400059185884"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      One catch with ... is that any arguments that appear <em>after</em>&#160;... on the argument list must be named explicitly and cannot be partially matched.
+    </p>
+    <pre><code class="r">&gt; args(paste)
+<span class="keyword">function</span> (<span class="keyword">...</span>, sep = <span class="string">&quot; &quot;</span>, collapse = <span class="literal">NULL</span>)
+
+&gt; paste(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, sep = <span class="string">&quot;:&quot;</span>)
+[<span class="number">1</span>] <span class="string">&quot;a:b&quot;</span>
+
+&gt; paste(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, se = <span class="string">&quot;:&quot;</span>)
+[<span class="number">1</span>] <span class="string">&quot;a b :&quot;</span>
+</code></pre>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="Your first R function [10:29]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_26209398" CREATED="1399311668242" MODIFIED="1399565692739"/>
-<node TEXT="Coding Standards [8:59]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_268663387" CREATED="1399311682035" MODIFIED="1399565692743"/>
-<node TEXT="Scoping Rules (part 1) [10:32]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1139484137" CREATED="1399311695745" MODIFIED="1399565692745"/>
+<node TEXT="Coding Standards [8:59]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_268663387" CREATED="1399311682035" MODIFIED="1399565692743">
+<node ID="ID_1186612672" CREATED="1400059578861" MODIFIED="1400059617258"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        <p>
+          Always use text files / text editor
+        </p>
+      </li>
+      <li>
+        <p>
+          Indent your code
+        </p>
+      </li>
+      <li>
+        <p>
+          Limit the width of your code (80 columns?)
+        </p>
+      </li>
+    </ol>
+<article/>    
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Scoping Rules (part 1) [10:32]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1139484137" CREATED="1399311695745" MODIFIED="1399565692745">
+<node TEXT="Umgebungen:" ID="ID_1858183555" CREATED="1400060023958" MODIFIED="1400060073908"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When R tries to bind a value to a symbol, it searches through a series of <code>environments</code>&#160;to find the appropriate value. When you are working on the command line and need to retrieve the value of an R object, the order is roughly
+    </p>
+    <ol>
+      <li>
+        Search the global environment for a symbol name matching the one requested.
+      </li>
+      <li>
+        Search the namespaces of each of the packages on the search list
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&gt; search()" ID="ID_998432990" CREATED="1400060034422" MODIFIED="1400060054747"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="r">&gt; search()
+[<span class="number">1</span>] <span class="string">&quot;.GlobalEnv&quot;</span>        <span class="string">&quot;package:stats&quot;</span>     <span class="string">&quot;package:graphics&quot;</span>
+[<span class="number">4</span>] <span class="string">&quot;package:grDevices&quot;</span> <span class="string">&quot;package:utils&quot;</span>     <span class="string">&quot;package:datasets&quot;</span>
+[<span class="number">7</span>] <span class="string">&quot;package:methods&quot;</span>   <span class="string">&quot;Autoloads&quot;</span>         <span class="string">&quot;package:base&quot;</span></code></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 <node TEXT="Scoping Rules (part 2) [8:34]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1746340712" CREATED="1399311714678" MODIFIED="1399565692746"/>
 <node TEXT="Vectorized Operations [3:46]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_555054620" CREATED="1399311734074" MODIFIED="1399565692747"/>
 <node TEXT="Dates and Times [10:29]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1156796135" CREATED="1399311747681" MODIFIED="1399565692749"/>
