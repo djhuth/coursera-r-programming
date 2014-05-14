@@ -689,7 +689,7 @@ Levels: yes no</code></pre>
   </body>
 </html>
 </richcontent>
-<node TEXT="example" ID="ID_248400886" CREATED="1399926345995" MODIFIED="1399926376534"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="example" ID="ID_248400886" CREATED="1399926345995" MODIFIED="1400100848126"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -713,7 +713,7 @@ Levels: yes no</code></pre>
 </node>
 </node>
 <node TEXT="names" ID="ID_1550155555" CREATED="1399926404619" MODIFIED="1399926599822">
-<node TEXT="R objects" ID="ID_903881964" CREATED="1399926458871" MODIFIED="1399926621552"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="R objects" ID="ID_903881964" CREATED="1399926458871" MODIFIED="1400100869639"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -733,7 +733,7 @@ foo bar norf
 </html>
 </richcontent>
 </node>
-<node TEXT="lists" ID="ID_697569096" CREATED="1399926544307" MODIFIED="1399926588802"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="lists" ID="ID_697569096" CREATED="1399926544307" MODIFIED="1400100879531"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -754,7 +754,7 @@ $c
 </html>
 </richcontent>
 </node>
-<node TEXT="matrices" ID="ID_673044982" CREATED="1399926558335" MODIFIED="1399926619380"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="matrices" ID="ID_673044982" CREATED="1399926558335" MODIFIED="1400100882687"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -939,7 +939,7 @@ b <span class="number">2</span> <span class="number">4</span></code></pre>
 </html>
 </richcontent>
 </node>
-<node TEXT="row or column" ID="ID_1872047191" CREATED="1399927069374" MODIFIED="1399927142515"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="row or column" ID="ID_1872047191" CREATED="1399927069374" MODIFIED="1400093599143"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1006,7 +1006,7 @@ $baz
   </body>
 </html>
 </richcontent>
-<node TEXT="ex." ID="ID_1784108637" CREATED="1399927284801" MODIFIED="1399927335741"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="ex." ID="ID_1784108637" CREATED="1399927284801" MODIFIED="1400093649082"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1046,7 +1046,7 @@ $baz
 </richcontent>
 </node>
 </node>
-<node TEXT="partial matching with [[ and $" ID="ID_1972579064" CREATED="1399927478819" MODIFIED="1399927531720"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="partial matching with [[ and $" ID="ID_1972579064" CREATED="1399927478819" MODIFIED="1400093676690"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1064,7 +1064,7 @@ $baz
 </html>
 </richcontent>
 </node>
-<node TEXT="removing NA values" ID="ID_233685368" CREATED="1399927553270" MODIFIED="1399927723080"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="removing NA values" ID="ID_233685368" CREATED="1399927553270" MODIFIED="1400093983948"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1128,7 +1128,7 @@ $baz
 </node>
 </node>
 <node TEXT="Reading and Writing Data (part 1)" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_841312269" CREATED="1399310730404" MODIFIED="1399927784186" LINK="programming/week1/reading_data_I.pdf">
-<node TEXT="principal functions:" ID="ID_857678371" CREATED="1399928063880" MODIFIED="1399928150172"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="principal functions:" ID="ID_857678371" CREATED="1399928063880" MODIFIED="1400092846604"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1162,7 +1162,7 @@ $baz
   </body>
 </html>
 </richcontent>
-<node TEXT="functions for writing:" ID="ID_491563223" CREATED="1399928098523" MODIFIED="1399928152366"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="functions for writing:" ID="ID_491563223" CREATED="1399928098523" MODIFIED="1400092854426"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1198,7 +1198,7 @@ $baz
 </richcontent>
 </node>
 </node>
-<node TEXT="read.table" ID="ID_1633190908" CREATED="1399928159658" MODIFIED="1399928196691"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="read.table" ID="ID_1633190908" CREATED="1399928159658" MODIFIED="1400092148893"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1238,7 +1238,7 @@ $baz
   </body>
 </html>
 </richcontent>
-<node TEXT="default:" ID="ID_849327657" CREATED="1399928218050" MODIFIED="1399928239101"><richcontent TYPE="DETAILS">
+<node TEXT="default:" ID="ID_849327657" CREATED="1399928218050" MODIFIED="1400093254566"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1266,9 +1266,10 @@ $baz
         <code>read.csv</code>&#160;is identical to read.table except that the default separator is a comma.
       </li>
     </ul>
-<article/>    
+    <article/>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="reading in large datasets:" ID="ID_1166502323" CREATED="1399928257718" MODIFIED="1399928356444"><richcontent TYPE="DETAILS">
@@ -1566,9 +1567,82 @@ x &lt;- readLines(con)
 </node>
 </node>
 </node>
+<node TEXT="quiz week 1" ID="ID_1873840982" CREATED="1400093112806" MODIFIED="1400093118187">
+<node TEXT="answers/notes" ID="ID_182854693" CREATED="1400093119821" MODIFIED="1400101372442"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      data &lt;- read.csv(&quot;hw1_data.csv&quot;)&#160;&#160;&#160;&#160;# identical to read.table except that the default separator is a comma.
+    </p>
+    <p>
+      head(data, n=4) # first four lines - &#220;berschriften z&#228;hlen nicht mit!
+    </p>
+    <p>
+      tail(data, n=4) # last four lines
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # value of ozone in row 47:
+    </p>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"><font color="blue">data[47,1]</font></pre>
+    <p>
+      
+    </p>
+    <p>
+      # How many missing values are in the Ozone column of this data frame?
+    </p>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"><font color="blue">ozon &lt;- data[,1]</font>
+    </pre>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"><font color="blue">bad &lt;- is.na(ozon)</font></pre>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"><font color="blue">ozon[bad] # zeigt Vektor mit allen NAs
+length(ozon[bad]) 
+
+# what is the mean of Ozone?</font>
+    </pre>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"><font color="blue">ozongood &lt;- ozon[!bad]</font></pre>
+    <font color="blue">mean(ozongood) </font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?" ID="ID_1668381655" CREATED="1400101386091" MODIFIED="1400101620115"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"></pre>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"><font color="blue"><span style="color: blue" class="GCG2UJHDEAB ace_keyword">mean(subset(data, data[,1] &gt; 31 &amp; data[,4] &gt; 90)[,2])</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="what is the mean of Temp when Month is 6" ID="ID_1691034538" CREATED="1400101803136" MODIFIED="1400101827565"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre tabindex="0" style="border-bottom-style: none; white-space: pre-wrap !important; margin-right: 0px; line-height: 1.2; border-top-style: none; margin-left: 0px; font-size: 10pt !important; border-right-style: none; border-left-style: none; border-right-width: medium; font-family: Lucida Console; border-top-width: medium; border-bottom-width: medium; margin-top: 0px; margin-bottom: 0px; border-left-width: medium" class="GCG2UJHDNAB"><font color="blue"><span style="color: blue" class="GCG2UJHDEAB ace_keyword">mean(subset(data, data[,5] == 6)[,4])</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="Week 2" ID="ID_34104404" CREATED="1399310377399" MODIFIED="1399310380373">
-<node TEXT="Control Structures (part 1-2) [7:10]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1499456140" CREATED="1399310933427" MODIFIED="1399928815644">
+<node TEXT="Control Structures (part 1-2) [7:10]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1499456140" CREATED="1399310933427" MODIFIED="1400089426923" LINK="programming/week2/ControlStructures.pdf">
 <node TEXT="if - [ else if ] - else" ID="ID_965316108" CREATED="1400053974224" MODIFIED="1400055892213">
 <node TEXT="normale Variante" ID="ID_973409863" CREATED="1400055908126" MODIFIED="1400055973677"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -1594,7 +1668,6 @@ x &lt;- readLines(con)
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="kompakte Variante" ID="ID_1977037172" CREATED="1400055896942" MODIFIED="1400055972277"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -1611,7 +1684,6 @@ x &lt;- readLines(con)
 }</code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1640,7 +1712,6 @@ x &lt;- readLines(con)
 <span class="keyword">for</span>(i <span class="keyword">in</span> <span class="number">1</span>:<span class="number">4</span>) print(x[i]</code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="nested" ID="ID_1404134884" CREATED="1400056048036" MODIFIED="1400056060280"><richcontent TYPE="DETAILS" HIDDEN="true">
@@ -1659,7 +1730,6 @@ x &lt;- readLines(con)
 }</code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1677,7 +1747,6 @@ x &lt;- readLines(con)
 }</code></pre>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="mehrere Bedingungen:" ID="ID_1327332672" CREATED="1400056114599" MODIFIED="1400056132844"><richcontent TYPE="DETAILS">
 
@@ -1703,7 +1772,6 @@ x &lt;- readLines(con)
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1733,7 +1801,6 @@ tol &lt;- <span class="number">1e-8</span>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Anmerkung:" ID="ID_1313308537" CREATED="1400056236086" MODIFIED="1400056248713"><richcontent TYPE="DETAILS">
 
@@ -1747,7 +1814,6 @@ tol &lt;- <span class="number">1e-8</span>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1764,7 +1830,6 @@ tol &lt;- <span class="number">1e-8</span>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="next" ID="ID_488977441" CREATED="1400054001520" MODIFIED="1400056314147"><richcontent TYPE="DETAILS">
@@ -1786,7 +1851,6 @@ tol &lt;- <span class="number">1e-8</span>
 }</code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="return" ID="ID_677459597" CREATED="1400054005392" MODIFIED="1400056336725"><richcontent TYPE="DETAILS">
@@ -1801,11 +1865,10 @@ tol &lt;- <span class="number">1e-8</span>
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Functions (part 1-2)" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_627025677" CREATED="1399311197937" MODIFIED="1400056473767">
+<node TEXT="Functions (part 1-2)" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_627025677" CREATED="1399311197937" MODIFIED="1400089441664" LINK="programming/week2/functions.pdf">
 <node TEXT="functions" ID="ID_568271793" CREATED="1400056484216" MODIFIED="1400056552168"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
@@ -1836,7 +1899,6 @@ tol &lt;- <span class="number">1e-8</span>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="function arguments" ID="ID_1916934279" CREATED="1400056589186" MODIFIED="1400056619625"><richcontent TYPE="DETAILS">
@@ -1866,7 +1928,6 @@ tol &lt;- <span class="number">1e-8</span>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="argument matching: positionally or by name" ID="ID_1647361180" CREATED="1400056594178" MODIFIED="1400057196296"><richcontent TYPE="DETAILS">
@@ -1891,7 +1952,6 @@ tol &lt;- <span class="number">1e-8</span>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="argument matching 2" ID="ID_96164306" CREATED="1400057202586" MODIFIED="1400057258198"><richcontent TYPE="DETAILS">
 
@@ -1916,7 +1976,6 @@ lm(y ~ x, mydata, <span class="number">1</span>:<span class="number">100</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="argument matching 3" ID="ID_1828697703" CREATED="1400057299823" MODIFIED="1400057340360"><richcontent TYPE="DETAILS">
 
@@ -1955,7 +2014,6 @@ lm(y ~ x, mydata, <span class="number">1</span>:<span class="number">100</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1976,7 +2034,6 @@ lm(y ~ x, mydata, <span class="number">1</span>:<span class="number">100</span>,
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="lazy evaluation" ID="ID_1596865767" CREATED="1400057404451" MODIFIED="1400058861884"><richcontent TYPE="DETAILS">
@@ -2000,7 +2057,6 @@ f(<span class="number">2</span>)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="lazy evaluation 2" ID="ID_416808463" CREATED="1400058925906" MODIFIED="1400058949689"><richcontent TYPE="DETAILS">
 
@@ -2023,7 +2079,6 @@ f(<span class="number">45</span>)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2056,7 +2111,6 @@ UseMethod(<span class="string">&quot;mean&quot;</span>)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="number of arguments not known in advance" ID="ID_1631959405" CREATED="1400059129382" MODIFIED="1400059148868"><richcontent TYPE="DETAILS">
 
@@ -2077,7 +2131,6 @@ UseMethod(<span class="string">&quot;mean&quot;</span>)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 <node TEXT="arguments after &quot;...&quot;" ID="ID_210524696" CREATED="1400059172788" MODIFIED="1400059185884"><richcontent TYPE="DETAILS">
 
@@ -2101,7 +2154,6 @@ UseMethod(<span class="string">&quot;mean&quot;</span>)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2136,12 +2188,11 @@ UseMethod(<span class="string">&quot;mean&quot;</span>)</code></pre>
 <article/>    
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Scoping Rules (part 1) [10:32]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1139484137" CREATED="1399311695745" MODIFIED="1399565692745">
-<node TEXT="Umgebungen:" ID="ID_1858183555" CREATED="1400060023958" MODIFIED="1400060073908"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Scoping Rules" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1139484137" CREATED="1399311695745" MODIFIED="1400089537190" LINK="programming/week2/Scoping.pdf">
+<node TEXT="Umgebungen:" ID="ID_1858183555" CREATED="1400060023958" MODIFIED="1400090432290"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2159,11 +2210,17 @@ UseMethod(<span class="string">&quot;mean&quot;</span>)</code></pre>
         Search the namespaces of each of the packages on the search list
       </li>
     </ol>
+    <p>
+      
+    </p>
+    <p>
+      <i>environment</i>&#160;- simply put a set of bindings between symbols and objects.
+    </p>
   </body>
 </html>
 
 </richcontent>
-<node TEXT="&gt; search()" ID="ID_998432990" CREATED="1400060034422" MODIFIED="1400060054747"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="&gt; search()" ID="ID_998432990" CREATED="1400060034422" MODIFIED="1400089504310"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2176,14 +2233,52 @@ UseMethod(<span class="string">&quot;mean&quot;</span>)</code></pre>
 [<span class="number">7</span>] <span class="string">&quot;package:methods&quot;</span>   <span class="string">&quot;Autoloads&quot;</span>         <span class="string">&quot;package:base&quot;</span></code></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+<node TEXT="lexical scoping" ID="ID_416849031" CREATED="1400090487082" MODIFIED="1400090499063"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lexical scoping in R means that
+    </p>
+    <p>
+      the values of free variables are searched for in the environment in which the function was defined.
+    </p>
+    <p>
+      What is an environment?
+    </p>
+    <p>
+      An environmentis a collection of (symbol, value) pairs, i.e. xis a symbol and 3.14might be its
+    </p>
+    <p>
+      value.
+    </p>
+    <p>
+      Every environment has a parent environment; it is possible for an environment to have multiple
+    </p>
+    <p>
+      &#8220;children&#8221;
+    </p>
+    <p>
+      the only environment without a parent is the empty environment
+    </p>
+    <p>
+      A function + an environment = a closureor function closure.
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Scoping Rules (part 2) [8:34]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1746340712" CREATED="1399311714678" MODIFIED="1399565692746"/>
-<node TEXT="Vectorized Operations [3:46]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_555054620" CREATED="1399311734074" MODIFIED="1399565692747"/>
-<node TEXT="Dates and Times [10:29]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1156796135" CREATED="1399311747681" MODIFIED="1399565692749"/>
+<node TEXT="parent frame" ID="ID_477098857" CREATED="1400090930557" MODIFIED="1400092133841"/>
+</node>
+<node TEXT="Vectorized Operations [3:46]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_555054620" CREATED="1399311734074" MODIFIED="1400089477091" LINK="programming/week2/Vectorized.pdf"/>
+<node TEXT="Dates and Times [10:29]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1156796135" CREATED="1399311747681" MODIFIED="1400089462687" LINK="programming/week2/Dates.pdf"/>
 </node>
 <node TEXT="Week 3" ID="ID_812915945" CREATED="1399310391591" MODIFIED="1399310394780">
 <node TEXT="lapply [9:23]" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_12988305" CREATED="1399311770085" MODIFIED="1399565676789"/>
